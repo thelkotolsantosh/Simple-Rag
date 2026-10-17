@@ -1,0 +1,23 @@
+Retrieval-Augmented Generation, or RAG, is a technique that allows an AI application to search external information before answering a question.
+
+A Large Language Model, or LLM, is a machine learning model trained on large amounts of text. Examples include GPT, Llama, Gemini, Claude, and Mistral.
+
+Embeddings are numerical representations of text. Sentences with similar meanings usually have embeddings that are close to each other in vector space.
+
+A vector database stores embeddings and helps applications search for information based on meaning instead of only exact keywords.
+
+FAISS is a similarity-search library created by Meta. It can store vectors and quickly find the vectors that are closest to a query vector.
+
+A basic RAG pipeline contains five main steps: load documents, split the documents into chunks, create embeddings, search for relevant chunks, and send the retrieved information to a language model.
+
+RAG is useful because an LLM can use information that was not included in its original training data.
+
+RAG systems are commonly used for document chatbots, company knowledge assistants, customer-support bots, research tools, and question-answering systems.
+
+Sentence Transformers are models designed to convert sentences and paragraphs into dense vector embeddings that can be compared using similarity search.
+
+The all-MiniLM-L6-v2 model is a lightweight Sentence Transformer commonly used for semantic search and beginner RAG projects.
+
+Chunking means splitting large documents into smaller pieces. Smaller chunks can make it easier for a RAG system to retrieve the exact information needed for a user's question.
+
+A production RAG system can include PDF loading, database connections, reranking, metadata filters, conversation memory, hybrid search, and an LLM for generating the final answer.
